@@ -39,7 +39,6 @@ public class ObserverTest : MonoBehaviour
     {
         Test1();
     }
-
     public void Test1()
     {
         //delegate
