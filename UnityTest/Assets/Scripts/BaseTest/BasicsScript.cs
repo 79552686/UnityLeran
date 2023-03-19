@@ -1,10 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using TreeEditor;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 public class BasicsScript : MonoBehaviour
 {
@@ -80,8 +77,7 @@ public class BasicsScript : MonoBehaviour
         //也可以遍历
         foreach (DictionaryEntry entry in table)
         {
-            Console.Write(entry.Key + ":");
-            Console.WriteLine(entry.Value);
+            Debug.Log("哈希表内容" + entry.Key + ":" + entry.Value);
         }
     }
 
